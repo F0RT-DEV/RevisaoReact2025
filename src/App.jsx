@@ -2,11 +2,16 @@ import "./App.css";
 import MyComponent from "./components/MyComponent";
 import OutroComponent from "./components/OutroComponent";
 import NovoComponent from "./components/NovoComponent";
-
+import ShowEvents from "./components/ShowEvents";
+import TestUseState from "./components/TestUseState";
+import UseList from "./components/UseList";
 function App() {
   return (
     <>
-      <h1>Hello ForT</h1>
+    <OutroComponent />
+    <UseList />
+    
+      {/* <h1>Hello ForT</h1>
       <MyComponent />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa similique
@@ -15,7 +20,9 @@ function App() {
         ipsa quidem sed dolore nesciunt?
       </p>
       <NovoComponent />
-      <OutroComponent />
+      <TestUseState />
+       <ShowEvents />
+       */}
     </>
   );
 }
